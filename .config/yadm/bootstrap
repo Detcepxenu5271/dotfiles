@@ -1,0 +1,9 @@
+#!/bin/sh
+# nvim config (separate repo)
+[ -d ~/.config/nvim ] || git clone git@github.com:detcepxenu5271/my_nvim_config.git ~/.config/nvim
+
+# Doom Emacs framework
+[ -d ~/.config/emacs ] || {
+  git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+  ~/.config/emacs/bin/doom install  # or `doom sync` if ~/.config/doom is already restored
+}

@@ -1,0 +1,7 @@
+[user]
+	email = july.yue.qi@qq.com
+	name = JulyRabbit
+[core]
+	editor = nvim
+[init]
+	defaultBrance = main
