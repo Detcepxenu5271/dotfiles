@@ -1,2 +1,35 @@
 .config/nvim/
 .config/emacs/
+
+# Editor backup / temporary files (Vim, Emacs, etc.)
+*~
+*.swp
+*.swo
+*.sw?
+.#*
+\#*\#
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Build outputs (project-dependent)
+build/
+dist/
